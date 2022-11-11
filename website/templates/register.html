@@ -1,0 +1,77 @@
+{% extends 'base.html' %}{% block title%}Login/Register{% endblock %} {%block
+    content%}
+    <!-- ======= Services Section ======= -->
+    {% block style%}<link href="/static/assets/css/register.css" rel="stylesheet" />{% endblock %}
+    
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2> Login/Register here</h2>
+          
+        </div>
+        
+
+            <form method="POST">
+                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                  <input type="email" name="email" placeholder="Email"  />
+                </div>
+                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                  <input type="password" name="password" placeholder="Password"  />
+                </div>
+                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                  <input type="password" name="password2" placeholder="Re-type Password"  />
+                </div>
+                <div class="row clearfix">
+                  <div class="col_half">
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                      <input type="text" name="name" placeholder="First Name" />
+                    </div>
+                  </div>
+                  <div class="col_half">
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                      <input type="text" name="name" placeholder="Last Name" />
+                    </div>
+                  </div>
+                </div>
+                    <div class="input_field radio_option">
+                    <input type="radio" name="radiogroup1" id="rd1">
+                    <label for="rd1">Male</label>
+                    <input type="radio" name="radiogroup1" id="rd2">
+                    <label for="rd2">Female</label>
+                    </div>
+                    <div class="input_field select_option">
+                      <select>
+                        <option>Department</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                      </select>
+                      <div class="select_arrow"></div>
+                    </div>
+                  <div class="input_field checkbox_option">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1">I agree with terms and conditions</label>
+                  </div>
+                  <div class="input_field checkbox_option">
+                      <input type="checkbox" id="cb2">
+                      <label for="cb2">I want to receive the newsletter</label>
+                  </div>
+                <input class="button" type="submit" value="Register" />
+              
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+    
+       
+    
+          
+    
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    {% endblock %}
+    

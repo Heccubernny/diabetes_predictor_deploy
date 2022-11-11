@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: url('images/map.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+form {
+  /* background-color: red; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  padding: 20px 40px 60px;
+  background: #fff;
+  height: 70vh;
+  margin: 0rem auto;
+  box-shadow: 0 10px 15px rgb(0 0 0 / 15%);
+  transition: 0.3s;
+  position: relative;
+  z-index: 500;
+  border: 1px solid #eee;
+}
+input {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background: none;
+  border: none;
+  padding: 5px 0;
+  transition: 0.3s;
+  border-bottom: 1px solid #777;
+  color: #555;
+  border-radius: 0.3rem;
+}
+
+h3 {
+  font-weight: 500;
+  color: #67b0d1;
+  font-family: Dancing Script, cursive;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.register__forgotpass {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  height: 3rem;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+}
+.login {
+  background: #fff;
+  padding: 5px 30px;
+  /* display: block; */
+  /* width: 150px; */
+  margin-top: 1rem;
+  border: 1px solid #67b0d1;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: inset 200px 50px #67b0d1;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.4rem;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+}
+.login:hover {
+  box-shadow: inset 0 0 0 0 #67b0d1;
+  color: #67b0d1;
+}
+.register__forgotpass a {
+}
+.register__forgotpass a:hover {
+  color: #43a3fb;
+}
+/* 00032A 143887 D3BAC5 */

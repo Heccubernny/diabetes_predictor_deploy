@@ -1,0 +1,36 @@
+{% extends 'base.html' %}{% block title%}Login/Register{% endblock %} {%block
+content%}
+<!-- ======= Services Section ======= -->
+{% block style%}<link href="/static/assets/css/login.css" rel="stylesheet" />{% endblock %}
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+      <h2> Login/Register here</h2>
+      
+    </div>
+    <form action="POST">
+      <h3>log in</h3>
+      <input type="email" name="email" id="email" placeholder="email" />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <a href="" class="login">login</a>
+      <div class="register__forgotpass">
+        <a href="{{ url_for('auth.register')}}">REGISTER</a>
+        <a href="">forgot password?</a>
+      </div>
+    </form>
+
+   
+
+      
+
+      
+    </div>
+  </div>
+</section>
+<!-- End Services Section -->
+{% endblock %}
